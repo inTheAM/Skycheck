@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E23A0BBC26CC007C0006F5F3 /* SkycheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A0BBB26CC007C0006F5F3 /* SkycheckApp.swift */; };
+		E23A0BBE26CC007C0006F5F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A0BBD26CC007C0006F5F3 /* ContentView.swift */; };
+		E23A0BC026CC007C0006F5F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23A0BBF26CC007C0006F5F3 /* Assets.xcassets */; };
+		E23A0BC326CC007C0006F5F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23A0BC226CC007C0006F5F3 /* Preview Assets.xcassets */; };
+		E23A0BCE26CC007D0006F5F3 /* SkycheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A0BCD26CC007D0006F5F3 /* SkycheckTests.swift */; };
+		E23A0BD926CC007D0006F5F3 /* SkycheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A0BD826CC007D0006F5F3 /* SkycheckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E23A0BCA26CC007D0006F5F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E23A0BB026CC007B0006F5F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23A0BB726CC007B0006F5F3;
+			remoteInfo = Skycheck;
+		};
+		E23A0BD526CC007D0006F5F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E23A0BB026CC007B0006F5F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23A0BB726CC007B0006F5F3;
+			remoteInfo = Skycheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E23A0BB826CC007B0006F5F3 /* Skycheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skycheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23A0BBB26CC007C0006F5F3 /* SkycheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkycheckApp.swift; sourceTree = "<group>"; };
+		E23A0BBD26CC007C0006F5F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E23A0BBF26CC007C0006F5F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E23A0BC226CC007C0006F5F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E23A0BC426CC007C0006F5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23A0BC926CC007D0006F5F3 /* SkycheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkycheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23A0BCD26CC007D0006F5F3 /* SkycheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkycheckTests.swift; sourceTree = "<group>"; };
+		E23A0BCF26CC007D0006F5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23A0BD426CC007D0006F5F3 /* SkycheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkycheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23A0BD826CC007D0006F5F3 /* SkycheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkycheckUITests.swift; sourceTree = "<group>"; };
+		E23A0BDA26CC007D0006F5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E23A0BB526CC007B0006F5F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23A0BC626CC007D0006F5F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23A0BD126CC007D0006F5F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E23A0BAF26CC007B0006F5F3 = {
+			isa = PBXGroup;
+			children = (
+				E23A0BBA26CC007B0006F5F3 /* Skycheck */,
+				E23A0BCC26CC007D0006F5F3 /* SkycheckTests */,
+				E23A0BD726CC007D0006F5F3 /* SkycheckUITests */,
+				E23A0BB926CC007B0006F5F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E23A0BB926CC007B0006F5F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E23A0BB826CC007B0006F5F3 /* Skycheck.app */,
+				E23A0BC926CC007D0006F5F3 /* SkycheckTests.xctest */,
+				E23A0BD426CC007D0006F5F3 /* SkycheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E23A0BBA26CC007B0006F5F3 /* Skycheck */ = {
+			isa = PBXGroup;
+			children = (
+				E23A0BBB26CC007C0006F5F3 /* SkycheckApp.swift */,
+				E23A0BBD26CC007C0006F5F3 /* ContentView.swift */,
+				E23A0BBF26CC007C0006F5F3 /* Assets.xcassets */,
+				E23A0BC426CC007C0006F5F3 /* Info.plist */,
+				E23A0BC126CC007C0006F5F3 /* Preview Content */,
+			);
+			path = Skycheck;
+			sourceTree = "<group>";
+		};
+		E23A0BC126CC007C0006F5F3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E23A0BC226CC007C0006F5F3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E23A0BCC26CC007D0006F5F3 /* SkycheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				E23A0BCD26CC007D0006F5F3 /* SkycheckTests.swift */,
+				E23A0BCF26CC007D0006F5F3 /* Info.plist */,
+			);
+			path = SkycheckTests;
+			sourceTree = "<group>";
+		};
+		E23A0BD726CC007D0006F5F3 /* SkycheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E23A0BD826CC007D0006F5F3 /* SkycheckUITests.swift */,
+				E23A0BDA26CC007D0006F5F3 /* Info.plist */,
+			);
+			path = SkycheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E23A0BB726CC007B0006F5F3 /* Skycheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23A0BDD26CC007D0006F5F3 /* Build configuration list for PBXNativeTarget "Skycheck" */;
+			buildPhases = (
+				E23A0BB426CC007B0006F5F3 /* Sources */,
+				E23A0BB526CC007B0006F5F3 /* Frameworks */,
+				E23A0BB626CC007B0006F5F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skycheck;
+			productName = Skycheck;
+			productReference = E23A0BB826CC007B0006F5F3 /* Skycheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E23A0BC826CC007D0006F5F3 /* SkycheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23A0BE026CC007D0006F5F3 /* Build configuration list for PBXNativeTarget "SkycheckTests" */;
+			buildPhases = (
+				E23A0BC526CC007D0006F5F3 /* Sources */,
+				E23A0BC626CC007D0006F5F3 /* Frameworks */,
+				E23A0BC726CC007D0006F5F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E23A0BCB26CC007D0006F5F3 /* PBXTargetDependency */,
+			);
+			name = SkycheckTests;
+			productName = SkycheckTests;
+			productReference = E23A0BC926CC007D0006F5F3 /* SkycheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E23A0BD326CC007D0006F5F3 /* SkycheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23A0BE326CC007D0006F5F3 /* Build configuration list for PBXNativeTarget "SkycheckUITests" */;
+			buildPhases = (
+				E23A0BD026CC007D0006F5F3 /* Sources */,
+				E23A0BD126CC007D0006F5F3 /* Frameworks */,
+				E23A0BD226CC007D0006F5F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E23A0BD626CC007D0006F5F3 /* PBXTargetDependency */,
+			);
+			name = SkycheckUITests;
+			productName = SkycheckUITests;
+			productReference = E23A0BD426CC007D0006F5F3 /* SkycheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E23A0BB026CC007B0006F5F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E23A0BB726CC007B0006F5F3 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E23A0BC826CC007D0006F5F3 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E23A0BB726CC007B0006F5F3;
+					};
+					E23A0BD326CC007D0006F5F3 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E23A0BB726CC007B0006F5F3;
+					};
+				};
+			};
+			buildConfigurationList = E23A0BB326CC007B0006F5F3 /* Build configuration list for PBXProject "Skycheck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E23A0BAF26CC007B0006F5F3;
+			productRefGroup = E23A0BB926CC007B0006F5F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E23A0BB726CC007B0006F5F3 /* Skycheck */,
+				E23A0BC826CC007D0006F5F3 /* SkycheckTests */,
+				E23A0BD326CC007D0006F5F3 /* SkycheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E23A0BB626CC007B0006F5F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23A0BC326CC007C0006F5F3 /* Preview Assets.xcassets in Resources */,
+				E23A0BC026CC007C0006F5F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23A0BC726CC007D0006F5F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23A0BD226CC007D0006F5F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E23A0BB426CC007B0006F5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23A0BBE26CC007C0006F5F3 /* ContentView.swift in Sources */,
+				E23A0BBC26CC007C0006F5F3 /* SkycheckApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23A0BC526CC007D0006F5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23A0BCE26CC007D0006F5F3 /* SkycheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23A0BD026CC007D0006F5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23A0BD926CC007D0006F5F3 /* SkycheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E23A0BCB26CC007D0006F5F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E23A0BB726CC007B0006F5F3 /* Skycheck */;
+			targetProxy = E23A0BCA26CC007D0006F5F3 /* PBXContainerItemProxy */;
+		};
+		E23A0BD626CC007D0006F5F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E23A0BB726CC007B0006F5F3 /* Skycheck */;
+			targetProxy = E23A0BD526CC007D0006F5F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E23A0BDB26CC007D0006F5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E23A0BDC26CC007D0006F5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E23A0BDE26CC007D0006F5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Skycheck/Preview Content\"";
+				DEVELOPMENT_TEAM = TW4MPRU9AN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Skycheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgua.Skycheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E23A0BDF26CC007D0006F5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Skycheck/Preview Content\"";
+				DEVELOPMENT_TEAM = TW4MPRU9AN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Skycheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgua.Skycheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E23A0BE126CC007D0006F5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW4MPRU9AN;
+				INFOPLIST_FILE = SkycheckTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgua.SkycheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skycheck.app/Skycheck";
+			};
+			name = Debug;
+		};
+		E23A0BE226CC007D0006F5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW4MPRU9AN;
+				INFOPLIST_FILE = SkycheckTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgua.SkycheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skycheck.app/Skycheck";
+			};
+			name = Release;
+		};
+		E23A0BE426CC007D0006F5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW4MPRU9AN;
+				INFOPLIST_FILE = SkycheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgua.SkycheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skycheck;
+			};
+			name = Debug;
+		};
+		E23A0BE526CC007D0006F5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW4MPRU9AN;
+				INFOPLIST_FILE = SkycheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgua.SkycheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skycheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E23A0BB326CC007B0006F5F3 /* Build configuration list for PBXProject "Skycheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23A0BDB26CC007D0006F5F3 /* Debug */,
+				E23A0BDC26CC007D0006F5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23A0BDD26CC007D0006F5F3 /* Build configuration list for PBXNativeTarget "Skycheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23A0BDE26CC007D0006F5F3 /* Debug */,
+				E23A0BDF26CC007D0006F5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23A0BE026CC007D0006F5F3 /* Build configuration list for PBXNativeTarget "SkycheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23A0BE126CC007D0006F5F3 /* Debug */,
+				E23A0BE226CC007D0006F5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23A0BE326CC007D0006F5F3 /* Build configuration list for PBXNativeTarget "SkycheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23A0BE426CC007D0006F5F3 /* Debug */,
+				E23A0BE526CC007D0006F5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E23A0BB026CC007B0006F5F3 /* Project object */;
+}
