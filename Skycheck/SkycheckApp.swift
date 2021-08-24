@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct SkycheckApp: App {
+	@ObservedObject var repository = Repository.shared
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+				.environmentObject(repository)
         }
     }
 }
