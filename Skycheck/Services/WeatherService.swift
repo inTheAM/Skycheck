@@ -13,7 +13,7 @@ protocol WeatherServiceProtocol {
 }
 
 struct WeatherService	{
-	private let apiKey	=	"0f5a73c4eca342f70a415bac0860812a"
+	private let apiKey	=	"API_KEY"
 }
 
 extension WeatherService:	WeatherServiceProtocol	{
