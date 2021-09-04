@@ -34,7 +34,6 @@ extension	HomeViewModel:	CLLocationManagerDelegate	{
 			if case .success(let location) = result	{
 				self?.locations = [location]
 				self?.repository.setCurrentLocation(to: location)
-				self?.locationService.stopUpdates()
 			}
 		})
 	}

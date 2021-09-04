@@ -240,8 +240,8 @@
 		E23A0BFF26CC23DE0006F5F3 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				E23A0BEA26CC01360006F5F3 /* WeatherViewModel.swift */,
 				E290450026D16556002D56C5 /* HomeViewModel.swift */,
+				E23A0BEA26CC01360006F5F3 /* WeatherViewModel.swift */,
 				E23A0C1B26CE4D360006F5F3 /* HourlyForecastViewModel.swift */,
 				E29A08E126D4034D00305562 /* DailyForecastViewModel.swift */,
 				E23A0C0D26CCE8850006F5F3 /* SearchViewModel.swift */,

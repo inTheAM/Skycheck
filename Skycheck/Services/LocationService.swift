@@ -39,8 +39,7 @@ extension LocationService:	LocationServiceProtocol	{
 	
 	func locateUser()	{
 		locationManager.requestWhenInUseAuthorization()
-//		locationManager.requestAlwaysAuthorization()
-		locationManager.startUpdatingLocation()
+		locationManager.requestLocation()
 	}
 	func fetchUserLocationDetails(completion:	@escaping ((Result<Location, LocationError>) ->	Void))	{
 		guard let userLocation = locationManager.location	else	{
